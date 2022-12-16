@@ -1,0 +1,11 @@
+@import '/src/styles/Colors.scss';
+
+footer {
+    background-color: $primary-color;
+    width: 100%;
+    text-align: center;
+
+    p {
+        color: $background-font-color;
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/Colors.scss';
+
+.recipe-details {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 5px;
+    border: 2px solid $secondary-color;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    justify-self: center;
+
+    img {
+        display: block;
+        border-radius: 25px;
+        width: 100%;
+        margin: auto;
+    }
+}
